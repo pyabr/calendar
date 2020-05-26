@@ -1,0 +1,5 @@
+name[en]: Calendar
+comment[en]: a simple calendar in Pyabr
+app: calendarapp
+shortcut: Ctrl+C
+icon: @logo/calendar
