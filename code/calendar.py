@@ -14,7 +14,7 @@ class MainApp (QtWidgets.QCalendarWidget):
         self.Desktop = args[2]
         self.Widget = args[3]
 
-        self.Widget.setWindowTitle ("Calendar")
+        self.Widget.setWindowTitle (res.get('@string/app_name'))
         self.Widget.setWindowIcon (QtGui.QIcon(res.get('@logo/calendar')))
 
         ## Data base ##

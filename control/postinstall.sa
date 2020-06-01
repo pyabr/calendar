@@ -1,0 +1,4 @@
+out Installing en language for calendar ...
+sel /usr/share/locales/en.locale
+set calendar.app_name: Calendar
+unsel
